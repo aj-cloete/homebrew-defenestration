@@ -14,8 +14,6 @@ cask "mac-mouse-fix-free" do
 
   auto_updates false
 
-  depends_on macos: ""
-
   app "Mac Mouse Fix Free.app"
 
   zap trash: [
