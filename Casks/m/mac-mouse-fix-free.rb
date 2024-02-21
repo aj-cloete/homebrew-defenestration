@@ -13,6 +13,8 @@ cask "mac-mouse-fix-free" do
   end
 
   auto_updates false
+  
+  app "Mac Mouse Fix.app"
 
   zap trash: [
     "~/Library/Application Support/com.nuebling.mac-mouse-fix",
