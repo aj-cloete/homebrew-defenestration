@@ -14,8 +14,6 @@ cask "mac-mouse-fix-free" do
 
   auto_updates false
 
-  app "Mac Mouse Fix Free.app"
-
   zap trash: [
     "~/Library/Application Support/com.nuebling.mac-mouse-fix",
     "~/Library/LaunchAgents/com.nuebling.mac-mouse-fix.helper.plist",
